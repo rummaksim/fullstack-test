@@ -1,0 +1,8 @@
+.navCustomStyle{
+    margin-bottom: 80px;
+    border-bottom: 2px solid black;
+}
+
+.active{
+    text-decoration: overline !important;
+}

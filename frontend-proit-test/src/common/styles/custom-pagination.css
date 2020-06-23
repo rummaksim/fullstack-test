@@ -1,0 +1,9 @@
+.custom{
+    color: gray !important;
+    border-color: gray !important;
+}
+
+.active .custom{
+    color: white !important;
+    background-color: gray !important;
+}

@@ -1,0 +1,34 @@
+insert into company (name, head_company) VALUES ('Company_1', null);
+insert into company (name, head_company) VALUES ('Company_2', 1);
+insert into company (name, head_company) VALUES ('Company_3', 2);
+insert into company (name, head_company) VALUES ('Organization_1', null);
+insert into company (name, head_company) VALUES ('Organization_2', 4);
+insert into company (name, head_company) VALUES ('Organization_3', 4);
+insert into company (name, head_company) VALUES ('Comp_1', 2);
+insert into company (name, head_company) VALUES ('Comp_2', 3);
+insert into company (name, head_company) VALUES ('Comp_3', 3);
+insert into company (name, head_company) VALUES ('Org_1', 4);
+insert into company (name, head_company) VALUES ('Org_2', 5);
+insert into company (name, head_company) VALUES ('Org_3', 6);
+insert into company (name, head_company) VALUES ('Manufacture_1', 10);
+insert into company (name, head_company) VALUES ('Manufacture_2', 12);
+insert into company (name, head_company) VALUES ('Manufacture_3', 12);
+
+
+insert into employee (name, company, head_employee) VALUES ('Employee_1', 1, null);
+insert into employee (name, company, head_employee) VALUES ('Employee_2', 1, 1);
+insert into employee (name, company, head_employee) VALUES ('Employee_3', 1, 2);
+insert into employee (name, company, head_employee) VALUES ('Employee_4', 2, null);
+insert into employee (name, company, head_employee) VALUES ('Employee_5', 1, 2);
+insert into employee (name, company, head_employee) VALUES ('Employee_6', 2, 4);
+insert into employee (name, company, head_employee) VALUES ('Employee_7', 2, 4);
+insert into employee (name, company, head_employee) VALUES ('Employee_8', 2, 6);
+insert into employee (name, company, head_employee) VALUES ('Employee_9', 2, 8);
+insert into employee (name, company, head_employee) VALUES ('Employee_10', 3, null);
+insert into employee (name, company, head_employee) VALUES ('Employee_11', 3, 10);
+insert into employee (name, company, head_employee) VALUES ('Employee_12', 3, 11);
+insert into employee (name, company, head_employee) VALUES ('Employee_13', 3, 12);
+insert into employee (name, company, head_employee) VALUES ('Employee_14', 4, null);
+insert into employee (name, company, head_employee) VALUES ('Employee_15', 4, 14);
+insert into employee (name, company, head_employee) VALUES ('Employee_16', 5, null);
+insert into employee (name, company, head_employee) VALUES ('Employee_17', 6, null);
